@@ -1,0 +1,142 @@
+:root{
+    --text-color: #ff4f5a;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+.flatoverlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    background-color: #ffffff;
+}
+.flatcircalAnimated{
+    animation: flatcircalAnimated linear 0.5s;
+}
+.circalaboutAnimated{
+    animation: circalaboutAnimated linear 0.5s;
+}
+.flatmainlistAnimated{
+    animation: flatmainlistAnimated linear 1s;
+}
+.brandAnimated{
+    animation: brandAnimated linear 0.5s;
+}
+@keyframes brandAnimated
+{
+    from
+    {
+        top: -100%;
+    }
+    to
+    {
+        top: 0px;
+    }
+}
+@keyframes flatmainlistAnimated
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes circalaboutAnimated
+{
+    from
+    {
+        opacity: 0;
+        transform: scale(2);
+    }
+    to
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes flatcircalAnimated
+{
+    from
+    {
+        opacity: 0;
+        top: 149px;
+    }
+    to
+    {
+        opacity: 1;
+        top: -149px;
+    }
+}
+@keyframes textanimated
+{
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    80%{
+        opacity: 0;
+        top: -20px;
+    }
+    100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+@keyframes textanimated1
+{
+    0%{
+        opacity: 0;
+        top: -100px;
+    }
+    65%{
+        opacity: 0;
+        top: -60px;
+    }
+    70%{
+        opacity: 1;
+        top: -14px;
+        background-color: #000000;
+    }
+    75%{
+        opacity: 1;
+        top: -14px;
+        background-color: #ff4f5a;
+    }
+    85%{
+        opacity: 1;
+        top: -14px;
+        transform: scale(1);
+        background-color: #ff4f5a;
+    }
+    100%{
+        opacity: 1;
+        top: -14px;
+        transform: scale(200);
+        background-color: #ff4f5a;
+        z-index: 100;
+    }
+}
+@keyframes textanimated2
+{
+    0%{
+        color: #000000;
+    }
+    5%{
+        color: #ff4f5a;
+    }
+    100%{
+        color: #ff4f5a;
+    }
+}
