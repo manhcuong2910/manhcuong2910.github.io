@@ -266,3 +266,31 @@
     font-size: 1.2rem;
     font-weight: 200;
 }
+.flatmain-contact{
+
+}
+.flatmain-contact-header{
+    font-size: 6rem;
+    color: var(--text-color);
+    font-family: 'Judson', serif;
+    font-weight: 598;
+    position: relative;
+}
+.flatmain-contact-header::after
+{
+    content: "";
+    position: absolute;
+    right: 30%;
+    bottom: -8px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.flatmain-contact-contents{
+    display: block;
+    margin: 10px 0px;
+    font-size: 1.2rem;
+    width: 80%;
+}
