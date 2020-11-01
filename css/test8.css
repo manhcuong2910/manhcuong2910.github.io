@@ -76,7 +76,7 @@
 }
 .flatmain-nav-list-items{
     font-size: 1.6rem;
-    margin: 8px 0px;
+    margin: 18px 0px;
 }
 .flatmain-nav-list-items-text{
     text-decoration: none;
@@ -185,7 +185,7 @@
     transform: translateX(-48%);
     text-align: center;
     background-color: var(--text-color);
-    width: 250px;
+    width: 277px;
     height: 250px;
     border-radius: 50%;
 }
@@ -265,6 +265,7 @@
 .flatmain-about-myself-describe{
     font-size: 1.2rem;
     font-weight: 200;
+    word-spacing: 6px;
 }
 .flatmain-contact-header{
     font-size: 6rem;
